@@ -1,0 +1,197 @@
+<!--
+ * @Author: Hope
+ * @Date: 2020-11-20 19:53:27
+ * @LastEditTime: 2020-11-26 11:30:36
+ * @FilePath: \JD\pages\log-in.html
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录</title>
+    <link rel="stylesheet" href="../out/log-in.css">
+</head>
+
+<body>
+    <div class="w">
+        <div id="logo">
+            <a href="../pages/index.html" class="">
+                <img src="../images/jd-log.png" alt="京东" width="170" height="60">
+            </a>
+            <b>欢迎登陆</b>
+        </div>
+        <a href="//surveys.jd.com/index.php?r=survey/index/sid/568245/lang/zh-Hans" target="_blank" class="q-link"><b>
+                <img src="../images/dx.png" style="width: 18px; height: 14px;position: relative;top: 2px;" alt="">
+            </b>登录页面，调查问卷</a>
+    </div>
+    <div class="bk">
+        <div class="txt-a">
+            <img src="../images/txt-b.png" alt="">
+            <p>依据《网络安全法》，为保障您的账户安全和正常使用，请尽快完成手机号验证！ 新版<span>《京东隐私政策》</span>已上线，将更有利于保护您的个人隐私。</p>
+        </div>
+    </div>
+    <div class="bkk">
+        <div class="dahez">
+            <div class="bk-x"></div>
+            <!-- 登录框 -->
+            <div class="dlo">
+                <div class="jd-text">
+                    <img src="../images/txt-b.png" alt="">
+                    <p style="background: #FFF8F0;">京东不会以任何理由要求您转账汇款，谨防诈骗。</p>
+                </div>
+                <div class="ad">
+                    <ul>
+                        <li class='a1'>
+                            <a href="">扫码登录</a>
+                            <span class="ygx">|</span>
+                        </li>
+                        <li class="ddoc">账户登录</li>
+
+                    </ul>
+                    <ol>
+                        <li class='b1'>
+                            <div class="tppk">
+                                <img src="../images/show.png" alt="">
+                            </div>
+                            <i></i>
+                            <div class="ttx">
+                                <p>打开<a href="">手机京东</a>
+                                    &nbsp;&nbsp;&nbsp;
+                                    扫描二维码</p>
+                            </div>
+                            <div class="gggkgq">
+                                <img src="../images/gggkgq.png" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="in">
+                                <div class="y">
+                                    <span class="pp">
+                                        <img src="../images/tou.png" alt="">
+                                    </span>
+                                    <form action="./index.html" method="get">
+                                        <input type="text" required="required" name="user" placeholder="用户名"
+                                            class="yhm">
+                                        <span class="pp">
+                                            <img src="../images/suo-b.png" alt="">
+                                        </span>
+                                        <input name="pass" type="password" class="n-txtCss" placeholder="请输入您的密码"
+                                            datatype="*6-16" errormsg="密码范围在6~16位之间！" nullmsg="请输入密码！" sucmsg="&nbsp;"
+                                            maxlength="16" plugin="passwordStrength" required="required">
+                                        <div class="deng">
+
+                                            <input type="submit" value="登录" / class="lllo">
+
+                                            <div class="wj">
+                                                <a href="">忘记密码</a>
+                                            </div>
+
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+                <div class="cs">
+                    <div class="mo-a">
+                        <li><img src="../images/square-QQ.png" alt="" style="width: 16px;height: 16px;">
+                            <a href="">QQ</a>
+                        </li>
+                        <li class="lll"><img src="../images/wx.png" alt="" style="width: 16px;height: 16px;">
+                            <a href="">微信</a>
+                        </li>
+                        <li class="loop-a"><img src="../images/zcjt.png" alt="" style="width: 16px;height: 16px;">
+                            <a href="../pages/enroll.html">立即注册</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="dibu-a">
+        <a href="" class="duua">关于我们</a>|
+        <a href="" class="duub">联系我们</a>|
+        <a href="" class="duuc">人才招聘</a>|
+        <a href="" class="duud">商家入驻</a>|
+        <a href="" class="duue">广告服务</a>|
+        <a href="" class="duuf">手机京东</a>|
+        <a href="" class="duug">友情链接</a>|
+        <a href="" class="duuh">销售联盟</a>|
+        <a href="" class="duui">京东社区</a>|
+        <a href="" class="duuj">京东公益</a>|
+        <a href="" class="duuk">English Site</a>
+        <div class="copyright">
+            Copyright&nbsp;©&nbsp;2004-2020&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+        </div>
+    </div>
+
+    <script>
+        var div1 = document.querySelector('.ad')
+        class Tab1 {
+            constructor(ele) {
+                this.ele = ele
+                //获取当前对象ul和ol中的li
+                this.uls = this.ele.querySelectorAll('ul>li')
+                this.ols = this.ele.querySelectorAll('ol>li')
+                this.qiehuan()
+            }
+            qiehuan() {
+                //把当前的this指向赋值给_this变量
+                let _this = this
+                //遍历ul对象中的li，给每个li对象添加点击事件
+                /* for(var attr in _this.uls){
+                    console.log(attr)
+                } */
+                for (let i = 0; i < _this.uls.length; i++) {
+                    _this.uls[i].onclick = function () {
+                        //清空所有li对象中的class属性值
+                        for (let j = 0; j < _this.uls.length; j++) {
+                            _this.uls[j].className = ''
+                            _this.ols[j].className = ''
+                        }
+                        //给指定的li对象添加class属性值
+                        this.className = 'a1'
+                        _this.ols[i].className = 'b1'
+                    }
+                }
+            }
+        }
+        new Tab1(div1)
+
+
+        inobj = document.querySelector('.yhm');
+        inobj2 = document.querySelector('.n-txtCss');
+
+
+
+        inobj.onfocus = function () {
+            this.style.outlineColor = "#f00";
+        }
+        inobj.onblur = function () {
+            val = this.value;
+            if (val.length < 8) {
+                alert("用户名至少8位");
+            }
+        }
+
+
+
+        inobj2.onfocus = function () {
+            this.style.outlineColor = "#f00";
+        }
+        inobj2.onblur = function () {
+            val = this.value;
+            if (val.length < 6) {
+                alert('密码至少6位数以上');
+            }
+        }
+
+
+
+    </script>
+</body>
+
+</html>

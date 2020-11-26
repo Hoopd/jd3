@@ -1,0 +1,403 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.w {
+    width: 990px;
+    height: 70px;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 300px;
+    height: 60px;
+    float: left;
+}
+
+.q-link {
+    float: right;
+    font-size: 12px;
+    color: #999999;
+    height: 20px;
+    margin-top: 40px;
+}
+
+#logo img {
+    float: left;
+}
+
+#logo b {
+    display: block;
+    width: 110px;
+    height: 40px;
+    float: left;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #393939;
+}
+
+.bk {
+    width: 100%;
+    height: 39px;
+    background-color: #FFF8F0;
+}
+
+.txt-a {
+    width: 798px;
+    height: 18px;
+    margin: 0 auto;
+}
+
+.txt-a img {
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-top: 12px;
+    margin-right: 4px;
+}
+
+.txt-a p {
+    color: #cccccc;
+    font-size: 12px;
+    line-height: 39px;
+    /* float: left; */
+}
+
+.txt-a span {
+    color: black;
+}
+
+/* 背景红色  背景图片 */
+.bkk {
+    background: #E93854;
+}
+
+.dahez {
+    width: 990px;
+    height: 475px;
+    margin: 0 auto;
+
+}
+
+.bk-x {
+    float: left;
+    width: 490px;
+    height: 475px;
+    background: url(../images/deng-b.png) 0px 0px no-repeat;
+}
+
+/* < !-- 登录框 --> */
+
+.dlo {
+    width: 346px;
+    height: 428px;
+    background-color: #ffffff;
+    float: right;
+    margin-top: 10px;
+}
+
+.jd-text {
+    color: #cccccc;
+    line-height: 39px;
+    width: 346px;
+    font-size: 12px;
+    height: 39px;
+    float: left;
+}
+
+.jd-text img {
+    margin-top: 12px;
+    float: left;
+    margin-right: 4px;
+    margin-left: 26px;
+}
+
+/* 搜索框 */
+
+.ad {
+    width: 344px;
+    height: 348px;
+    margin: 0px auto;
+}
+
+.ad ul {
+    list-style: none;
+    clear: both;
+}
+
+.ad ul li {
+    width: 172px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    border-bottom: 1px solid #ccc;
+}
+
+.ad ul .a1 {
+    color: red;
+}
+
+.ad ol {
+    list-style: none;
+}
+
+.ad ol li {
+    font-weight: bold;
+    text-align: center;
+    display: none;
+}
+
+.ad ol .b1 {
+    display: block;
+}
+
+
+.b1 {
+    width: 100%;
+    height: 245px;
+}
+
+.b1 img {
+    margin-top: 8px;
+}
+
+.b1:hover .tppk {
+    float: left;
+    margin-left: -155px;
+}
+
+.b1:hover i {
+    display: block;
+}
+
+.b1 i {
+    position: relative;
+    top: 45px;
+    left: 202px;
+    width: 147px;
+    height: 165px;
+    display: none;
+    background: url(../images/on1.png) no-repeat;
+}
+
+.a1 a {
+    color: red;
+    position: relative;
+    left: 50px;
+}
+
+.a1 span {
+    color: #ccc;
+    margin-left: 88px;
+    width: 1px;
+}
+
+.a1 {
+    margin-bottom: 1px;
+}
+
+.tppk {
+    margin: 0 auto;
+    float: left;
+    margin-top: 45px;
+    width: 160px;
+    height: 160px;
+    border: 1px solid #ccc;
+    margin-left: 89px;
+    margin-bottom: 10px;
+}
+
+.ttx {
+    font-size: 12px;
+    margin-top: 14px;
+    text-align: center;
+}
+
+.ttx p {
+    float: left;
+    margin-left: 95px;
+}
+
+.ttx a {
+    color: red;
+}
+
+.gggkgq {
+    margin-top: 10px;
+    width: 344px;
+    height: 40px;
+}
+
+.gggkgq img {
+
+    margin-left: 35px;
+}
+
+.cs {
+    width: 344px;
+    height: 40px;
+    margin: 0 auto;
+    border-top: none;
+    margin-top: 37px;
+}
+
+.mo-a {
+    width: 306px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 12px;
+    float: left;
+
+}
+
+.mo-a img {
+    float: left;
+    margin-right: 4px;
+
+}
+
+.mo-a li:hover a {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.mo-a li {
+    height: 18px;
+    width: 60px;
+    border-right: 1px solid #ccc;
+    float: left;
+    margin-right: 10px;
+}
+
+.mo-a .lll {
+    border-right: none;
+}
+
+.mo-a .loop-a {
+    height: 18px;
+    width: 80px;
+    float: right;
+    border-right: none;
+}
+
+
+
+
+.y {
+    width: 345px;
+    height: 245px;
+    float: left;
+    margin-left: -2px;
+}
+
+
+.y input {
+    width: 300px;
+    height: 40px;
+    margin-left: 19px;
+    text-indent: 3em;
+    text-align: center;
+}
+
+.deng {
+    height: 45px;
+}
+
+.lllo {
+    width: 300px;
+    height: 40px;
+    background: red;
+
+}
+
+.deng button {
+    width: 300px;
+    height: 40px;
+    background: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+    font-size: 18px;
+    // padding-right: 30px;
+    position: relative;
+}
+
+.deng button {
+    color: white;
+}
+
+.wj {
+    font-size: 12px;
+    float: left;
+    position: relative;
+    left: 260px;
+}
+
+.wj a {
+    color: rgb(119, 119, 119);
+}
+
+.pp {
+    width: 39px;
+    height: 42px;
+    display: inline-block;
+    margin-left: 21px;
+    position: relative;
+    top: 53px;
+    background: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #cccccc;
+}
+
+.in input {
+    margin: 10px;
+}
+
+/* 底部信息 */
+
+.dibu-a {
+    width: 990px;
+    height: 85px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.duua:hover,
+.duub:hover,
+.duuc:hover,
+.duud:hover,
+.duue:hover,
+.duuf:hover,
+.duug:hover,
+.duuh:hover,
+.duui:hover,
+.duuj:hover,
+.duuk:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.dibu-a a {
+    margin: 0px 10px;
+    color: #666666;
+}
+
+.copyright {
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}

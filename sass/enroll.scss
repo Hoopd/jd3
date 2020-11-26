@@ -1,0 +1,358 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-size: 12px;
+}
+
+#main {
+    text-align: center;
+}
+
+#fullbg {
+    background-color: gray;
+    left: 0;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    z-index: 3;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.5;
+    -khtml-opacity: 0.5;
+}
+
+#dialog {
+    background-color: #fff;
+    border: 5px solid rgba(0, 0, 0, 0.8);
+    height: 480px;
+    left: 50%;
+    margin: -200px 0 0 -200px;
+    padding: 1px;
+    position: fixed !important;
+    /* 浮动对话框 */
+    position: absolute;
+    top: 280px;
+    width: 480px;
+    z-index: 5;
+    border-radius: 5px;
+    display: none;
+}
+
+#dialog i {
+    width: 30px;
+    height: 20px;
+    background: red;
+    float: right;
+}
+
+
+#dialog i.close a {
+    color: blue;
+    text-decoration: none;
+}
+
+.jlo-a {
+    margin-top: 10px;
+}
+
+h2 {
+    margin-bottom: 40px;
+}
+
+.main p {
+    margin-top: 10px;
+}
+
+
+/* < !-- 头部 ---------- --> */
+
+.jd-y {
+    width: 100%;
+    height: 106px;
+    box-shadow: 0px 2px 10px rgba(41, 12, 127, 0.2);
+
+}
+
+.jd-lo {
+    width: 1210px;
+    height: 76px;
+    margin: 0 auto;
+    position: absolute;
+    top: 13px;
+    left: 5%;
+}
+
+.erl {
+    width: 260px;
+    height: 50px;
+}
+
+.erl img {
+    margin-top: 13px;
+    float: left;
+}
+
+.jd-lo a {
+    color: #ccc;
+    font-size: 16px;
+    width: 145px;
+    height: 21px;
+    float: right;
+}
+
+.jd-lo span {
+    color: red;
+}
+
+.ydxx {
+    width: 400px;
+    height: 55px;
+    margin: 60px auto;
+
+}
+
+.xfk-a {
+    width: 60px;
+    height: 55px;
+    font-size: 12px;
+    float: left;
+    margin-left: 5px;
+}
+
+.xfk-a img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.xfk-a p {
+    margin-top: 10px;
+    width: 72px;
+    margin-left: 10px;
+}
+
+.ddd-a {
+    position: relative;
+    top: 7px;
+    left: -15px;
+
+}
+
+.ddd-a,
+.ddd-b {
+    height: 8px;
+    float: left;
+    color: #ccc;
+}
+
+
+.ddd-b {
+    position: relative;
+    top: 7px;
+    left: -25px;
+
+}
+
+.xfk-b {
+    float: left;
+
+}
+
+.xfk-b,
+.xfk-c {
+    width: 60px;
+    height: 55px;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+
+.xfk-b img {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.xfk-b p {
+    margin-top: 10px;
+    width: 72px;
+    margin-left: -20px;
+}
+
+
+.xfk-c {
+    float: right;
+}
+
+.xfk-c img {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+
+.xfk-c p {
+    margin-top: 10px;
+    width: 72px;
+    margin-left: 0px;
+}
+
+
+.in {
+    margin-top: -20px;
+}
+
+.y {
+    width: 400px;
+    height: 445px;
+    margin: 0 auto;
+}
+
+
+.y input {
+    width: 400px;
+    height: 52px;
+    margin-left: 19px;
+    text-indent: 3em;
+    text-align: center;
+    float: left;
+}
+
+
+
+.deng button {
+    color: white;
+}
+
+.pp {
+    width: 87px;
+    height: 54px;
+    display: inline-block;
+    margin-left: 11px;
+    position: relative;
+    top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #cccccc;
+}
+
+.in input {
+    margin: 10px;
+}
+
+
+.but-a,
+.but-c {
+    width: 405px;
+    height: 50px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.but-a {
+    position: relative;
+    left: 10px;
+    top: 20px;
+    background: none;
+    color: #000;
+}
+
+.but-c {
+    position: relative;
+    left: 10px;
+    top: 50px;
+    background: red;
+    margin-bottom: 80px;
+}
+
+.in a {
+    color: #000;
+}
+
+.in .but-c a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.zx-b {
+    width: 400px;
+    height: 28px;
+    float: left;
+    position: relative;
+    left: 10px;
+}
+
+.qy-a {
+    width: 195px;
+    height: 28px;
+    float: left;
+
+}
+
+.qy-a img,
+.qy-b img {
+    width: 20px;
+    height: 20px;
+}
+
+.qy-a a,
+.qy-b a {
+    position: relative;
+    left: 10px;
+    top: -5px;
+}
+
+.qy-b {
+    position: relative;
+    left: 20px;
+    width: 195px;
+    height: 28px;
+    float: left;
+
+}
+
+/* 底部信息 */
+
+.dibu-a {
+    width: 990px;
+    height: 85px;
+    font-size: 14px;
+    margin-top: 10px;
+
+    margin: 0 auto;
+}
+
+.duua:hover,
+.duub:hover,
+.duuc:hover,
+.duud:hover,
+.duue:hover,
+.duuf:hover,
+.duug:hover,
+.duuh:hover,
+.duui:hover,
+.duuj:hover,
+.duuk:hover {
+    margin: 0 auto;
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.dibu-a a {
+    margin: 0px 10px;
+    color: #666666;
+}
+
+.copyright {
+    color: #666666;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
+}

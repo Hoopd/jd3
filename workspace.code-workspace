@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "JS项目准备",
+			"path": "..\\..\\..\\JS项目准备"
+		},
+		{
+			"name": "shudianxm",
+			"path": "..\\..\\..\\phpstudy_pro\\WWW\\demo\\shudianxm"
+		},
+		{
+			"name": "JD",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true,
+		"liveServer.settings.multiRootWorkspaceName": "html,css,js"
+	}
+}

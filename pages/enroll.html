@@ -1,0 +1,170 @@
+<!--
+ * @Author: Hope
+ * @Date: 2020-11-21 17:44:09
+ * @LastEditTime: 2020-11-26 10:18:44
+ * @FilePath: \JD\pages\enroll.html
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>遮罩层注册</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../out/enroll.css">
+    <script type="text/javascript" src="../jquery-1.8.3/jquery-1.8.3.js"></script>
+    <script>
+        $(document).ready(function () {
+            showBg();
+        });
+    </script>
+    <script>
+        //显示灰色 jQuery 遮罩层
+        function showBg() {
+            var bh = $("body").height();
+            var bw = $("body").width();
+            $("#fullbg").css({
+                height: bh,
+                width: bw,
+                display: "block"
+            });
+            $("#dialog").show();
+        }
+        //关闭灰色 jQuery 遮罩
+        function closeBg() {
+            $("#fullbg,#dialog").hide();
+        }
+    </script>
+</head>
+
+<body class="bodyd">
+    <div id="main">
+        <div id="fullbg"></div>
+        <div id="dialog">
+            <i class="close"><a href="#" rel="external nofollow" onclick="closeBg();">X</a></i>
+            <div class="jlo-a">
+                <h2>京东用户注册协议和隐私政策</h2>
+                <p>欢迎注册成为京东用户！在您注册过程中，您需要完成我们的注册流程并通过点击同意的形式在线签署以下协议,
+                    请您务必仔细阅读、充分理解协议中的条款内容后再点击同意（尤其是以粗体或下划线标识的条款，因为这些条款可能会明确您应履行的义务或对您的权利有所限制）。
+                </p>
+                <p>【请您注意】如果您不同意以下协议全部或任何条款约定，请您停止注册。</p>
+                <p>您停止注册后将仅可以浏览我们的商品信息但无法享受我们的产品或服务。如您按照注册流程提示填写信息，阅读并点击同意上述协议且完成全部注册流程后，即表示您已充分阅读、理解并接受协议的全部内容，并表明您同意我们可以依据协议内容来处理您的个人信息，并同意我们将您的订单信息共享给为完成此订单所必须的第三方合作方（详情查看《订单共享与安全》）。
+                </p>
+                <p>如您对以下协议内容有任何疑问，您可随时通过《京东隐私政策》中的联系方式联系我们。</p>
+                <p>如您在使用我们的产品或服务中与其他用户发生争议的，依您与其他用户达成的协议处理。</p>
+                <p>《京东用户注册协议》</p>
+                <p>一、服务条款的确认及接受</p>
+                <p>二、服务须知</p>
+                <p>三、订单</p>
+                <p>四、配送和交付</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 头部        -------------      ---------- -->
+    <div class="jd-y">
+        <div class="jd-lo">
+            <div class="erl">
+                <a href="../pages/index.html"><img src="../images/zclog.png" alt=""></a>
+            </div>
+            <a href="../pages/log-in.html">已有账号? <span>请登录></span></a>
+        </div>
+    </div>
+
+    <div class="ydxx">
+        <div class="xfk-a">
+            <img src="../images/1.png" alt="" class="sza">
+            <p>验证手机号</p>
+        </div>
+        <div class="ddd-a">&nbsp;● ● ● ● ● ● ● ● > </div>
+        <div class="xfk-b">
+            <img src="../images/2.png" alt="" class="sza">
+            <p>填写账户信息</p>
+        </div>
+        <div class="ddd-b">&nbsp;● ● ● ● ● ● ● ● > </div>
+        <div class="xfk-c">
+            <img src="../images/3.png" alt="" class="sza">
+            <p>注册成功</p>
+        </div>
+    </div>
+
+    <div class="in">
+        <div class="y">
+            <span class="pp">
+                中国 0086 ^
+            </span>
+            <input type="text" name="text" placeholder="建议使用常用手机号" class="yhm">
+            <button class="but-a">
+                <p>点击按钮进行验证</p>
+            </button>
+            <button class="but-c"><a href="">下一步</a></button>
+            <div class="zx-b">
+                <div class="qy-a">
+                    <img src="../images/wla.png" alt="">
+                    <a href="">企业用户注册</a>
+                </div>
+                <div class="qy-b">
+                    <img src="../images/wla.png" alt="">
+                    <a href="">海外用户注册</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="dibu-a">
+        <a href="" class="duua">关于我们</a>|
+        <a href="" class="duub">联系我们</a>|
+        <a href="" class="duuc">人才招聘</a>|
+        <a href="" class="duud">商家入驻</a>|
+        <a href="" class="duue">广告服务</a>|
+        <a href="" class="duuf">手机京东</a>|
+        <a href="" class="duug">友情链接</a>|
+        <a href="" class="duuh">销售联盟</a>|
+        <a href="" class="duui">京东社区</a>|
+        <a href="" class="duuj">京东公益</a>|
+        <a href="" class="duuk">English Site</a>
+        <div class="copyright">
+            Copyright&nbsp;©&nbsp;2004-2020&nbsp;&nbsp;京东JD.com&nbsp;版权所有
+        </div>
+    </div>
+
+    <script>
+        var buta = document.querySelector('.but-a');
+        var bodyd = document.querySelector('.bodyd');
+
+
+        buta.onclick = function () {
+            // 1.创建数据交互对象
+            if (window.XMLHttpRequest) {
+                var xhr = new XMLHttpRequest() // 非IE5 6
+            } else {
+                var xhr = new ActiveXObject('Microsoft.XMLHTTP') // IE5 6
+            }
+            // 2.打开连接
+            xhr.open('get', './txt.text?_=' + Date.now(), true) // 默认true，异步
+            // 3.发送请求
+            xhr.send(null) // get请求传null
+            // 4.等待请求/响应状态
+            // xhr.readyState  请求状态，0-4状态改变会触发一个readystatechange事件
+            xhr.onreadystatechange = function () {
+                // console.log( xhr.readyState );// 2 3 4
+                if (xhr.readyState === 4) {// 请求完成
+                    // xhr.status 响应状态
+                    if (xhr.status === 200) {// OK 响应就绪
+                        // xhr.responseText 响应的数据
+                        bodyd.innerHTML = xhr.responseText
+                    } else {
+                        console.log(xhr.status);
+                    }
+                }
+            }
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
